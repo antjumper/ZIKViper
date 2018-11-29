@@ -11,7 +11,7 @@
 #import "ZIKTNoteListViewDataSource.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
+//遵循了增加的额外的协议ZIKTNoteListViewEventHandler,ZIKTNoteListViewDataSource
 @interface ZIKTNoteListViewPresenter : NSObject <ZIKTViperPresenter,ZIKTNoteListViewEventHandler,ZIKTNoteListViewDataSource>
 
 @end

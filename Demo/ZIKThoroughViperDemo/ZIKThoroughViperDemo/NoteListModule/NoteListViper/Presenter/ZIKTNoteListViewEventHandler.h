@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @import ZIKTViper.ZIKTViperViewEventHandler;
+//给Presenter增加的规则
 
 @protocol ZIKTNoteListViewEventHandler <ZIKTViperViewEventHandler,UIViewControllerPreviewingDelegate>
 - (void)didTouchNavigationBarAddButton;

@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 
 #define _ZIKTNoteListViewProtocol_ (Protocol<ZIKTRoutableViewDynamicGetter> *)@protocol(ZIKTNoteListViewProtocol)
+
+//给view增加的规则
 @protocol ZIKTNoteListViewProtocol <NSObject>
 - (UITableView *)noteListTableView;
 - (UITableViewCell *)cellForRowAtIndexPath:(NSIndexPath *)indexPath

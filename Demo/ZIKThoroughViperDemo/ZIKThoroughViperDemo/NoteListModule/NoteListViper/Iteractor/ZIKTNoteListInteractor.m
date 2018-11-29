@@ -29,11 +29,13 @@
     return self.noteListDataService.noteList;
 }
 
+//下载数据 放在了Interactor里面
 - (void)loadAllNotes {
     [self.noteListDataService fetchAllNotesWithCompletion:^(NSArray *notes) {
         
     }];
 }
+
 
 - (NSInteger)noteCount {
     return self.noteList.count;

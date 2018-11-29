@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+//给Presenter增加的规则
+
 @protocol ZIKTNoteListViewDataSource <NSObject>
 - (NSInteger)numberOfRowsInSection:(NSInteger)section;
 - (NSString *)textOfCellForRowAtIndexPath:(NSIndexPath *)indexPath;

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A417A07921AFD28B00989BCA /* ZIKTNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A417A06821AFD28B00989BCA /* ZIKTNoteListViewController.m */; };
+		A417A07A21AFD28B00989BCA /* ZIKTNoteListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A417A06D21AFD28B00989BCA /* ZIKTNoteListInteractor.m */; };
+		A417A07B21AFD28B00989BCA /* ZIKTNoteListModuleBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A417A06F21AFD28B00989BCA /* ZIKTNoteListModuleBuilder.m */; };
+		A417A07C21AFD28B00989BCA /* ZIKTNoteListViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A417A07421AFD28B00989BCA /* ZIKTNoteListViewPresenter.m */; };
+		A417A07D21AFD28B00989BCA /* ZIKTNoteListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = A417A07521AFD28B00989BCA /* ZIKTNoteListWireframe.m */; };
 		F82CB4881F32CE060010A49C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4061F32CE060010A49C /* AppDelegate.m */; };
 		F82CB4891F32CE060010A49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82CB4071F32CE060010A49C /* Assets.xcassets */; };
 		F82CB48A1F32CE060010A49C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82CB4081F32CE060010A49C /* LaunchScreen.storyboard */; };
@@ -30,11 +35,6 @@
 		F82CB49C1F32CE060010A49C /* ZIKTLoginViewWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4461F32CE060010A49C /* ZIKTLoginViewWireframe.m */; };
 		F82CB49D1F32CE060010A49C /* ZIKTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB44A1F32CE060010A49C /* ZIKTUserModel.m */; };
 		F82CB49E1F32CE060010A49C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB44B1F32CE060010A49C /* main.m */; };
-		F82CB49F1F32CE060010A49C /* ZIKTNoteListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB44F1F32CE060010A49C /* ZIKTNoteListInteractor.m */; };
-		F82CB4A01F32CE060010A49C /* ZIKTNoteListModuleBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4521F32CE060010A49C /* ZIKTNoteListModuleBuilder.m */; };
-		F82CB4A11F32CE060010A49C /* ZIKTNoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4551F32CE060010A49C /* ZIKTNoteListViewController.m */; };
-		F82CB4A21F32CE060010A49C /* ZIKTNoteListViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4591F32CE060010A49C /* ZIKTNoteListViewPresenter.m */; };
-		F82CB4A31F32CE060010A49C /* ZIKTNoteListWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB45C1F32CE060010A49C /* ZIKTNoteListWireframe.m */; };
 		F82CB4A41F32CE060010A49C /* ZIKTNoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4601F32CE060010A49C /* ZIKTNoteModel.m */; };
 		F82CB4A51F32CE060010A49C /* ZIKTNoteDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4641F32CE060010A49C /* ZIKTNoteDataManager.m */; };
 		F82CB4A61F32CE060010A49C /* UIApplication+ZIKTViperRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F82CB4671F32CE060010A49C /* UIApplication+ZIKTViperRouter.m */; };
@@ -77,6 +77,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A417A06821AFD28B00989BCA /* ZIKTNoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListViewController.m; sourceTree = "<group>"; };
+		A417A06921AFD28B00989BCA /* ZIKTNoteListModuleBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListModuleBuilder.h; sourceTree = "<group>"; };
+		A417A06A21AFD28B00989BCA /* ZIKTNoteListInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListInteractorInput.h; sourceTree = "<group>"; };
+		A417A06B21AFD28B00989BCA /* ZIKTNoteListViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewProtocol.h; sourceTree = "<group>"; };
+		A417A06C21AFD28B00989BCA /* ZIKTNoteListViewPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewPresenter.h; sourceTree = "<group>"; };
+		A417A06D21AFD28B00989BCA /* ZIKTNoteListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListInteractor.m; sourceTree = "<group>"; };
+		A417A06E21AFD28B00989BCA /* ZIKTNoteListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListWireframe.h; sourceTree = "<group>"; };
+		A417A06F21AFD28B00989BCA /* ZIKTNoteListModuleBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListModuleBuilder.m; sourceTree = "<group>"; };
+		A417A07021AFD28B00989BCA /* ZIKTNoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewController.h; sourceTree = "<group>"; };
+		A417A07121AFD28B00989BCA /* ZIKTNoteListViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewDataSource.h; sourceTree = "<group>"; };
+		A417A07221AFD28B00989BCA /* ZIKTNoteListWireframeInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListWireframeInput.h; sourceTree = "<group>"; };
+		A417A07321AFD28B00989BCA /* ZIKTNoteListDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListDataService.h; sourceTree = "<group>"; };
+		A417A07421AFD28B00989BCA /* ZIKTNoteListViewPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListViewPresenter.m; sourceTree = "<group>"; };
+		A417A07521AFD28B00989BCA /* ZIKTNoteListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListWireframe.m; sourceTree = "<group>"; };
+		A417A07621AFD28B00989BCA /* ZIKTNoteListViewEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewEventHandler.h; sourceTree = "<group>"; };
+		A417A07721AFD28B00989BCA /* ZIKTNoteListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListInteractor.h; sourceTree = "<group>"; };
+		A417A07821AFD28B00989BCA /* ZIKTNoteListRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListRouter.h; sourceTree = "<group>"; };
 		F82CB4051F32CE060010A49C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F82CB4061F32CE060010A49C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F82CB4071F32CE060010A49C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,22 +154,6 @@
 		F82CB4491F32CE060010A49C /* ZIKTUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTUserModel.h; sourceTree = "<group>"; };
 		F82CB44A1F32CE060010A49C /* ZIKTUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTUserModel.m; sourceTree = "<group>"; };
 		F82CB44B1F32CE060010A49C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F82CB44E1F32CE060010A49C /* ZIKTNoteListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListInteractor.h; sourceTree = "<group>"; };
-		F82CB44F1F32CE060010A49C /* ZIKTNoteListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListInteractor.m; sourceTree = "<group>"; };
-		F82CB4501F32CE060010A49C /* ZIKTNoteListInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListInteractorInput.h; sourceTree = "<group>"; };
-		F82CB4511F32CE060010A49C /* ZIKTNoteListModuleBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListModuleBuilder.h; sourceTree = "<group>"; };
-		F82CB4521F32CE060010A49C /* ZIKTNoteListModuleBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListModuleBuilder.m; sourceTree = "<group>"; };
-		F82CB4531F32CE060010A49C /* ZIKTNoteListRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListRouter.h; sourceTree = "<group>"; };
-		F82CB4541F32CE060010A49C /* ZIKTNoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ZIKTNoteListViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		F82CB4551F32CE060010A49C /* ZIKTNoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListViewController.m; sourceTree = "<group>"; };
-		F82CB4561F32CE060010A49C /* ZIKTNoteListViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewDataSource.h; sourceTree = "<group>"; };
-		F82CB4571F32CE060010A49C /* ZIKTNoteListViewEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewEventHandler.h; sourceTree = "<group>"; };
-		F82CB4581F32CE060010A49C /* ZIKTNoteListViewPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewPresenter.h; sourceTree = "<group>"; };
-		F82CB4591F32CE060010A49C /* ZIKTNoteListViewPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ZIKTNoteListViewPresenter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F82CB45A1F32CE060010A49C /* ZIKTNoteListViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListViewProtocol.h; sourceTree = "<group>"; };
-		F82CB45B1F32CE060010A49C /* ZIKTNoteListWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListWireframe.h; sourceTree = "<group>"; };
-		F82CB45C1F32CE060010A49C /* ZIKTNoteListWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteListWireframe.m; sourceTree = "<group>"; };
-		F82CB45D1F32CE060010A49C /* ZIKTNoteListWireframeInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListWireframeInput.h; sourceTree = "<group>"; };
 		F82CB45F1F32CE060010A49C /* ZIKTNoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteModel.h; sourceTree = "<group>"; };
 		F82CB4601F32CE060010A49C /* ZIKTNoteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTNoteModel.m; sourceTree = "<group>"; };
 		F82CB4631F32CE060010A49C /* ZIKTNoteDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteDataManager.h; sourceTree = "<group>"; };
@@ -165,7 +166,6 @@
 		F82CB46B1F32CE060010A49C /* ZIKTRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKTRouter.m; sourceTree = "<group>"; };
 		F82CB4D61F32F0E90010A49C /* ZIKTRouter+ZIKTLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZIKTRouter+ZIKTLogin.h"; sourceTree = "<group>"; };
 		F82CB4D71F32F0E90010A49C /* ZIKTRouter+ZIKTLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZIKTRouter+ZIKTLogin.m"; sourceTree = "<group>"; };
-		F82CB4EF1F346C910010A49C /* ZIKTNoteListDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKTNoteListDataService.h; sourceTree = "<group>"; };
 		F85120CF1F1A0DF500491E7F /* ZIKThoroughViperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIKThoroughViperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EF736F1FB6EF450040008C /* ZIKTViper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZIKTViper.xcodeproj; path = ../../ZIKTViper.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +182,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A417A06721AFD28B00989BCA /* NoteListViper */ = {
+			isa = PBXGroup;
+			children = (
+				A417A08221AFD32E00989BCA /* Builder */,
+				A417A08121AFD30E00989BCA /* WireFrame */,
+				A417A08021AFD2E200989BCA /* Presenter */,
+				A417A07F21AFD2BB00989BCA /* Iteractor */,
+				A417A07E21AFD29D00989BCA /* View */,
+			);
+			path = NoteListViper;
+			sourceTree = "<group>";
+		};
+		A417A07E21AFD29D00989BCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A417A06821AFD28B00989BCA /* ZIKTNoteListViewController.m */,
+				A417A07021AFD28B00989BCA /* ZIKTNoteListViewController.h */,
+				A417A06B21AFD28B00989BCA /* ZIKTNoteListViewProtocol.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A417A07F21AFD2BB00989BCA /* Iteractor */ = {
+			isa = PBXGroup;
+			children = (
+				A417A06A21AFD28B00989BCA /* ZIKTNoteListInteractorInput.h */,
+				A417A07221AFD28B00989BCA /* ZIKTNoteListWireframeInput.h */,
+				A417A06D21AFD28B00989BCA /* ZIKTNoteListInteractor.m */,
+				A417A07721AFD28B00989BCA /* ZIKTNoteListInteractor.h */,
+				A417A07321AFD28B00989BCA /* ZIKTNoteListDataService.h */,
+			);
+			path = Iteractor;
+			sourceTree = "<group>";
+		};
+		A417A08021AFD2E200989BCA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A417A06C21AFD28B00989BCA /* ZIKTNoteListViewPresenter.h */,
+				A417A07421AFD28B00989BCA /* ZIKTNoteListViewPresenter.m */,
+				A417A07121AFD28B00989BCA /* ZIKTNoteListViewDataSource.h */,
+				A417A07621AFD28B00989BCA /* ZIKTNoteListViewEventHandler.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A417A08121AFD30E00989BCA /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				A417A07821AFD28B00989BCA /* ZIKTNoteListRouter.h */,
+				A417A06E21AFD28B00989BCA /* ZIKTNoteListWireframe.h */,
+				A417A07521AFD28B00989BCA /* ZIKTNoteListWireframe.m */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		A417A08221AFD32E00989BCA /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A417A06921AFD28B00989BCA /* ZIKTNoteListModuleBuilder.h */,
+				A417A06F21AFD28B00989BCA /* ZIKTNoteListModuleBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		F82CB4021F32CE060010A49C /* ZIKThoroughViperDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,21 +336,9 @@
 		F82CB44C1F32CE060010A49C /* NoteListModule */ = {
 			isa = PBXGroup;
 			children = (
-				F82CB44D1F32CE060010A49C /* NoteListViper */,
+				A417A06721AFD28B00989BCA /* NoteListViper */,
 			);
 			path = NoteListModule;
-			sourceTree = "<group>";
-		};
-		F82CB44D1F32CE060010A49C /* NoteListViper */ = {
-			isa = PBXGroup;
-			children = (
-				F82CB4E01F3301630010A49C /* Builder */,
-				F82CB4E11F3301750010A49C /* View */,
-				F82CB4E21F33017C0010A49C /* Presenter */,
-				F82CB4DF1F33015B0010A49C /* Wireframe */,
-				F82CB4E31F3301830010A49C /* Interactor */,
-			);
-			path = NoteListViper;
 			sourceTree = "<group>";
 		};
 		F82CB45E1F32CE060010A49C /* NoteModel */ = {
@@ -375,58 +427,6 @@
 				F82CB4461F32CE060010A49C /* ZIKTLoginViewWireframe.m */,
 			);
 			name = Wireframe;
-			sourceTree = "<group>";
-		};
-		F82CB4DF1F33015B0010A49C /* Wireframe */ = {
-			isa = PBXGroup;
-			children = (
-				F82CB4531F32CE060010A49C /* ZIKTNoteListRouter.h */,
-				F82CB45D1F32CE060010A49C /* ZIKTNoteListWireframeInput.h */,
-				F82CB45B1F32CE060010A49C /* ZIKTNoteListWireframe.h */,
-				F82CB45C1F32CE060010A49C /* ZIKTNoteListWireframe.m */,
-			);
-			name = Wireframe;
-			sourceTree = "<group>";
-		};
-		F82CB4E01F3301630010A49C /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				F82CB4511F32CE060010A49C /* ZIKTNoteListModuleBuilder.h */,
-				F82CB4521F32CE060010A49C /* ZIKTNoteListModuleBuilder.m */,
-			);
-			name = Builder;
-			sourceTree = "<group>";
-		};
-		F82CB4E11F3301750010A49C /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F82CB45A1F32CE060010A49C /* ZIKTNoteListViewProtocol.h */,
-				F82CB4541F32CE060010A49C /* ZIKTNoteListViewController.h */,
-				F82CB4551F32CE060010A49C /* ZIKTNoteListViewController.m */,
-				F82CB4561F32CE060010A49C /* ZIKTNoteListViewDataSource.h */,
-				F82CB4571F32CE060010A49C /* ZIKTNoteListViewEventHandler.h */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		F82CB4E21F33017C0010A49C /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				F82CB4581F32CE060010A49C /* ZIKTNoteListViewPresenter.h */,
-				F82CB4591F32CE060010A49C /* ZIKTNoteListViewPresenter.m */,
-			);
-			name = Presenter;
-			sourceTree = "<group>";
-		};
-		F82CB4E31F3301830010A49C /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				F82CB4501F32CE060010A49C /* ZIKTNoteListInteractorInput.h */,
-				F82CB44E1F32CE060010A49C /* ZIKTNoteListInteractor.h */,
-				F82CB44F1F32CE060010A49C /* ZIKTNoteListInteractor.m */,
-				F82CB4EF1F346C910010A49C /* ZIKTNoteListDataService.h */,
-			);
-			name = Interactor;
 			sourceTree = "<group>";
 		};
 		F82CB4E41F3301960010A49C /* Builder */ = {
@@ -673,14 +673,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82CB4A01F32CE060010A49C /* ZIKTNoteListModuleBuilder.m in Sources */,
 				F82CB4981F32CE060010A49C /* ZIKTLoginBuilder.m in Sources */,
 				F82CB49B1F32CE060010A49C /* ZIKTLoginViewPresenter.m in Sources */,
-				F82CB49F1F32CE060010A49C /* ZIKTNoteListInteractor.m in Sources */,
+				A417A07A21AFD28B00989BCA /* ZIKTNoteListInteractor.m in Sources */,
 				F82CB48C1F32CE060010A49C /* ZIKTEditorBuilder.m in Sources */,
 				F82CB4A61F32CE060010A49C /* UIApplication+ZIKTViperRouter.m in Sources */,
 				F82CB4971F32CE060010A49C /* ZIKTLoginService.m in Sources */,
 				F82CB4D81F32F0E90010A49C /* ZIKTRouter+ZIKTLogin.m in Sources */,
+				A417A07B21AFD28B00989BCA /* ZIKTNoteListModuleBuilder.m in Sources */,
 				F82CB4921F32CE060010A49C /* ZIKTTextViewBuilder.m in Sources */,
 				F82CB4931F32CE060010A49C /* ZIKTTextViewWireframe.m in Sources */,
 				F82CB4941F32CE060010A49C /* ZIKTTextWidgetInteractor.m in Sources */,
@@ -688,15 +688,15 @@
 				F82CB49E1F32CE060010A49C /* main.m in Sources */,
 				F82CB4951F32CE060010A49C /* ZIKTTextWidgetViewPresenter.m in Sources */,
 				F82CB48E1F32CE060010A49C /* ZIKTEditorViewController.m in Sources */,
-				F82CB4A21F32CE060010A49C /* ZIKTNoteListViewPresenter.m in Sources */,
 				F82CB48F1F32CE060010A49C /* ZIKTEditorViewPresenter.m in Sources */,
 				F82CB4991F32CE060010A49C /* ZIKTLoginInteractor.m in Sources */,
 				F82CB4A71F32CE060010A49C /* ZIKTRouter+ZIKTEditor.m in Sources */,
-				F82CB4A31F32CE060010A49C /* ZIKTNoteListWireframe.m in Sources */,
 				F82CB4A41F32CE060010A49C /* ZIKTNoteModel.m in Sources */,
 				F82CB49D1F32CE060010A49C /* ZIKTUserModel.m in Sources */,
-				F82CB4A11F32CE060010A49C /* ZIKTNoteListViewController.m in Sources */,
+				A417A07921AFD28B00989BCA /* ZIKTNoteListViewController.m in Sources */,
 				F82CB48D1F32CE060010A49C /* ZIKTEditorInteractor.m in Sources */,
+				A417A07D21AFD28B00989BCA /* ZIKTNoteListWireframe.m in Sources */,
+				A417A07C21AFD28B00989BCA /* ZIKTNoteListViewPresenter.m in Sources */,
 				F82CB4881F32CE060010A49C /* AppDelegate.m in Sources */,
 				F82CB4911F32CE060010A49C /* ZIKTTextView.m in Sources */,
 				F82CB4A51F32CE060010A49C /* ZIKTNoteDataManager.m in Sources */,

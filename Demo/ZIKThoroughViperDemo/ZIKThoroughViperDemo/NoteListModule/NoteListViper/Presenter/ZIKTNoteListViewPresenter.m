@@ -32,6 +32,9 @@
     NSAssert(self.wireframe, @"Router should be initlized when view is ready.");
     NSAssert([self.view conformsToProtocol:@protocol(ZIKTNoteListViewProtocol)], @"Presenter should be attach to a view.");
     NSAssert([self.interactor conformsToProtocol:@protocol(ZIKTNoteListInteractorInput)], @"Interactor should be initlized when view is ready.");
+    
+    
+    //presenter中的数据是从interactor中获取的
     [self.interactor loadAllNotes];
 }
 
@@ -41,6 +44,7 @@
 
 - (void)handleViewDidAppear:(BOOL)animated {
     if (self.logined == NO) {
+        //presenter中的跳转是wireframe 完成的
         [self.wireframe presentLoginViewWithMessage:@"Login in to use this app" delegate:self completion:nil];
     }
 }
@@ -62,6 +66,7 @@
 }
 
 #pragma mark ZIKTNoteListViewDataSource
+//数据交给了interactor 去处理了
 
 - (NSInteger)numberOfRowsInSection:(NSInteger)section {
     return self.interactor.noteCount;
